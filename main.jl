@@ -23,4 +23,4 @@ num_sim=1 #number of simulations
 #grid points in x and y 
 tx=ty=(1:gridsize)/gridsize
 
-plotd=surface(tx,ty,field,title="$grid_size × $grid_size FBM simulation, α=$(param[2]), c= $(param[1])")
+plotd=surface(tx,ty,field,title="$gridsize × $gridsize FBM simulation, α=$(param[2]), c= $(param[1])")
